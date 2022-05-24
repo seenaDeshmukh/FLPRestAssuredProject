@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23060" started-at="2022-05-24T17:09:40Z" finished-at="2022-05-24T17:10:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23060" started-at="2022-05-24T17:09:40Z" finished-at="2022-05-24T17:10:03Z">
+      <class name="FTP_REST_project.RestSwaggerProject.day1">
+        <test-method status="PASS" signature="deleteMethod()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="deleteMethod" duration-ms="5324" started-at="2022-05-24T22:39:40Z" finished-at="2022-05-24T22:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethod -->
+        <test-method status="PASS" signature="deleteMethod2()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="deleteMethod2" duration-ms="2259" started-at="2022-05-24T22:39:45Z" finished-at="2022-05-24T22:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethod2 -->
+        <test-method status="PASS" signature="getMethod1()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="getMethod1" duration-ms="1735" started-at="2022-05-24T22:39:48Z" finished-at="2022-05-24T22:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod1 -->
+        <test-method status="PASS" signature="getinuserMethod()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="getinuserMethod" duration-ms="1" started-at="2022-05-24T22:39:49Z" finished-at="2022-05-24T22:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getinuserMethod -->
+        <test-method status="PASS" signature="putWithJsontype()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="putWithJsontype" duration-ms="2968" started-at="2022-05-24T22:39:49Z" finished-at="2022-05-24T22:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putWithJsontype -->
+        <test-method status="PASS" signature="postwithJsontype()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="postwithJsontype" duration-ms="2557" started-at="2022-05-24T22:39:52Z" finished-at="2022-05-24T22:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postwithJsontype -->
+        <test-method status="PASS" signature="postmethodwithstring()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="postmethodwithstring" duration-ms="3107" started-at="2022-05-24T22:39:55Z" finished-at="2022-05-24T22:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postmethodwithstring -->
+        <test-method status="PASS" signature="getMethod()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="getMethod" duration-ms="2633" started-at="2022-05-24T22:39:58Z" finished-at="2022-05-24T22:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="putMethodWithstring()[pri:0, instance:FTP_REST_project.RestSwaggerProject.day1@6833ce2c]" name="putMethodWithstring" duration-ms="2448" started-at="2022-05-24T22:40:01Z" depends-on-methods="FTP_REST_project.RestSwaggerProject.day1.getMethod" finished-at="2022-05-24T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMethodWithstring -->
+      </class> <!-- FTP_REST_project.RestSwaggerProject.day1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
