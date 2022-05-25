@@ -67,21 +67,13 @@ public void putMethodWithstring() {
 }@Test
 public void putWithJsontype() throws IOException {
 	RestAssured.baseURI="https://petstore.swagger.io/v2";
-	JSONObject p=new JSONObject();
-	p.put("id", 56);
-	p.put("username", "seena");
-	p.put("firstName", "seena");
-	p.put("lastName", "deshmkh");
-	p.put("email", "s@gmail.com");
-	p.put("password", "3435");
-	p.put("phone", "3456789320");
-	p.put("userStatus", 10);
+	FileInputStream file=new FileInputStream(new File(System.getProperty("user.dir")+"\\Data\\put.json"));
 	Response resp=given()
-			.header("Content-Type","application/json").body(p.toJSONString()).
+			.body(IOUtils.toString(file)).header("content-type","application/json").
 	when()
-	      .put("/user/see");
-
+	        .put("/user/see");
 	Assert.assertEquals( resp.getStatusCode(),200);
+	
 }
 @Test()
 public void deleteMethod() {
